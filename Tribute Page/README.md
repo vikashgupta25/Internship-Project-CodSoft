@@ -1,10 +1,10 @@
 # Tribute To Bhagat Singh
 
-# Overview
+## Overview
 
 This repository is a tribute to Bhagat Singh, one of India's most revered freedom fighters. Bhagat Singh was a revolutionary socialist whose courageous actions and martyrdom have inspired generations. This project aims to compile and present various resources, historical accounts, and educational materials about his life, ideology, and contributions to the Indian independence movement.
 
-# Contents
+## Contents
 
 - **Biographical Information**: Detailed accounts of Bhagat Singh's life, from his early years to his role in the Indian freedom struggle.
 - **Historical Documents**: A collection of letters, speeches, and writings by Bhagat Singh, providing insight into his thoughts and motivations.
@@ -13,7 +13,7 @@ This repository is a tribute to Bhagat Singh, one of India's most revered freedo
 - **Tributes and Memorials**: Information about various tributes, memorials, and commemorations dedicated to Bhagat Singh around the world.
 - **Multimedia**: Videos and audio recordings related to Bhagat Singh's life and legacy.
 
-# How to Contribute
+## How to Contribute
 
 We welcome contributions from anyone who wishes to honor the legacy of Bhagat Singh. You can contribute by:
 
@@ -28,6 +28,6 @@ To contribute, please fork the repository, make your changes, and submit a pull 
 
 Special thanks to all historians, researchers, and enthusiasts who have kept the spirit and memory of Bhagat Singh alive through their dedicated work.
 
-# Contact
+## Contact
 
 For any questions or suggestions, feel free to open an issue or contact the repository maintainers directly.
