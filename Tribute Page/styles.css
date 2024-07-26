@@ -1,0 +1,116 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a base font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    /* background-color: #333; */
+    background-color: rgba(243, 156, 18, 1);
+    color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+/* Intro section styling */
+.intro {
+    text-align: center;
+    padding: 2rem;
+    background-color: #e2e2e2;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #333;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Qualities section styling */
+.qualities {
+    padding: 3rem;
+    background-color: #fff;
+    height: 750px;
+}
+
+.qualities h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    background: linear-gradient(to right, rgba(0,0,0,0) 10%, rgb(243, 156, 18) 50%, rgba(0,0,0,0) 90%);
+}
+
+.qualities-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.quality {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+.quality h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(to right, rgba(0,0,0,0) 10%, rgba(243, 156, 18, 1) 50%, rgba(0,0,0,0) 90%);
+    text-align: center;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .intro-text, .quality p {
+        font-size: 1rem;
+    }
+
+    .qualities-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
